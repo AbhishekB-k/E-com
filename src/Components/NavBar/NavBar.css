@@ -1,0 +1,68 @@
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10px; /* Reduced padding */
+    background-color: #0a0022fd; /* Black background color */
+  }
+  
+  .nav-head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+  }
+  .nav-search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-search-button{
+    width: 100px;
+  }
+  .nav-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+  }
+  .nav-search-input{
+    width: 80%;
+    height: 20px;
+  }
+  .nav-info-main{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+  
+  
+  .nav-amaz h1 {
+    font-size: 20px; /* Reduced font size */
+    margin: 0;
+    color: #ffffff; /* Amazon's signature color */
+  }
+  .nav-add{
+    font-size: 20px; /* Reduced font size */
+    margin: 0;
+    color: #ffffff; /* Amazon's signature color */
+  
+  }
+  .nav-info-main-sign{
+    color: #ffffff; /* Amazon's signature color */
+  
+  }
+  .nav-info-main-cart{
+    color: #ffffff; /* Amazon's signature color */
+  }
+  
+  .nav-add p {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 12px; 
+    
+    
+  }

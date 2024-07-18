@@ -1,0 +1,87 @@
+/* Homepage.css */
+
+.homepage {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.home-products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Ensures flex items wrap to next line on smaller screens */
+}
+
+.home-img {
+    width: 100%; /* Make the image width 100% */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.category-section {
+    margin-bottom: 20px;
+    border: 2px solid #333; /* Example border color for category sections */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.category-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: auto auto; /* Two rows, adjust as needed */
+    gap: 10px;
+}
+
+.product-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%; /* Make the image width 100% of its container */
+    height: auto;
+    object-fit: contain; /* Ensures images fit within the container without distortion */
+    border-radius: 8px;
+}
+
+.product-item p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Different borders for each category section */
+.category-section:nth-child(1) {
+    border-color: #ffcc00; /* Example border color for category A */
+}
+
+.category-section:nth-child(2) {
+    border-color: #00ccff; /* Example border color for category B */
+}
+
+.category-section:nth-child(3) {
+    border-color: #ff3399; /* Example border color for category C */
+}
+
+.category-section:nth-child(4) {
+    border-color: #66cc66; /* Example border color for category D */
+}
+
+.category-section:nth-child(5) {
+    border-color: #9933ff; /* Example border color for category E */
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-rows: auto; /* Reset to auto rows for responsiveness */
+    }
+}
