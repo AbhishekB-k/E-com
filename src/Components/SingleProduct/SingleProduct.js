@@ -17,7 +17,7 @@ const SingleProduct = ({ data }) => {
                 <p>{price}</p>
             </div>
             <div className="product-actions">
-                <button onClick={()=>navigate(`/ProductInfo/:${price}`)}>View</button>
+                <button onClick={()=>navigate(`/ProductInfo/id${price}`)}>View</button>
                 <button>Add To Cart</button>
             </div>
         </div>
